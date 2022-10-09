@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./jquery-3.6.1.js"></script>
     <script src="./client.js"></script>
-    <link rel="stylsheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./stylesheet.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>TO DO LIST</h1>
+    <section>
+        <input type="textarea" id="taskText">
+        <button id="addBtn">Add Task</button>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Tasks</th>
+                <th>Complete</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody id="listBody">
+            <!-- List Appends Here -->
+        </tbody>
+    </table>
 </body>
 </html>

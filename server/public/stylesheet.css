@@ -1,0 +1,22 @@
+table, th {
+    border: 2px solid black;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    width: 500px;
+    height: 100px;
+}
+
+section {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+input {
+    width: 750px;
+    height: 50px;
+}
