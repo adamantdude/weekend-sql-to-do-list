@@ -16,7 +16,7 @@ function handleListeners() {
 }
 
 function onAdd() {
-    
+    console.log('in Add');
 }
 
 function onComplete() {
