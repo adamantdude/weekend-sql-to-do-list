@@ -93,15 +93,30 @@ function onComplete() {
 function onDelete() {
     let listId = $(this).data('id');
 
-    $.ajax({
-        url: `/list/${listId}`,
-        method: 'DELETE'
+    Swal.fire({
+        icon: 'warning',
+        showDenyButton: true,
+        reverseButtons: true,
+        focusDeny: true,
+        title: 'Deleting Task',
+        text: 'Are you sure you want to delete this task?',
     })
-    .then(res => {
-        console.log('in onDelete');
-        render();
-    })
-    .catch(err => {
-        console.log('in onDelete error', err);
+    .then(value => {
+        if(value.isConfirmed) {
+            $.ajax({
+                url: `/list/${listId}`,
+                method: 'DELETE'
+            })
+            .then(res => {
+                Swal.fire('Task successfully deleted', '', 'success')
+                render();
+            })
+            .catch(err => {
+                console.log('in onDelete error', err);
+            })
+        }
+        else {
+            Swal.fire('Deletion cancelled', '', 'warning');
+        }
     })
 }
