@@ -41,6 +41,7 @@ JavaScript Dependencies
 - Express
 - pg
 - Body-Parser
+- Sweetalert 2
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
