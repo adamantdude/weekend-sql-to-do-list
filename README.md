@@ -9,6 +9,8 @@ This is a JavaScript solo project done by a student of Prime Digital Academy tha
 ## Screen Shot
 
 ![To Do List Pic](./TODOLISTv1.png?raw=true)
+![To Do List Pic v2](./TODOLISTv2.png?raw=true)
+![To Do List Pic v2-2](./TODOLISTv2-2.png?raw=true)
 
 ### Prerequisites
 
