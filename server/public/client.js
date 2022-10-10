@@ -17,7 +17,7 @@ function render() {
                 $('#listBody').append(`
                     <tr class="complete">
                         <td>${task.task}</td>
-                        <td>${task.isComplete}</td>
+                        <td>DONE!</td>
                         <td></td>
                         <td>
                             <button class="deleteBtn" data-id="${task.id}">Delete</button>
@@ -29,7 +29,7 @@ function render() {
                 $('#listBody').append(`
                     <tr>
                         <td>${task.task}</td>
-                        <td>${task.isComplete}</td>
+                        <td>Not Done</td>
                         <td>
                             <button class="completeBtn" data-id="${task.id}">Complete</button>
                         </td>
