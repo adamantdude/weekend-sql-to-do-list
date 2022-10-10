@@ -4,7 +4,7 @@
 
 _Duration: 4 Hour Sprint_
 
-This is a solo project done by a student of Prime Digital Academy that aims to fill a 'To Do List' need that is server-capable and utilizes an SQL database to keep track of tasks. (./TODOLISTv1.png)
+This is a solo project done by a student of Prime Digital Academy that aims to fill a 'To Do List' need that is server-capable and utilizes an SQL database to keep track of tasks. [](./TODOLISTv1.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam at massa in faucibus. Etiam volutpat, risus non mollis convallis, velit nisi pulvinar mi, eu faucibus orci nisi eget nibh. Integer a velit pretium, volutpat arcu eleifend, fringilla elit. Cras erat sapien, convallis venenatis tellus vitae, feugiat dictum felis.
 
